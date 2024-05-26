@@ -1,21 +1,21 @@
 ---
-title: "Concentratie berekeningen"
+title: "conculations"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Conculations}
+  %\VignetteIndexEntry{conculations}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
 
-```{r setup, include = FALSE}
+```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>"
 )
 ```
 
-```{r library}
-library(conculations) 
+```{r setup}
+library(conculations)
 ```
 
 Berekenen van molariteit 
