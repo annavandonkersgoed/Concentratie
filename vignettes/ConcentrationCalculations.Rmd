@@ -1,0 +1,39 @@
+---
+title: "Concentratie berekeningen"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Conculations}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r library}
+library(conculations) 
+```
+
+Berekenen van molariteit 
+```{r molariteit}
+molariteit(1, 5)
+```
+
+Berekenen van massaprocent 
+```{r massaprocent}
+massaprocent(5, 10)
+```
+
+Berekenen van verdunningsfactor 
+```{r verdunningsfactor}
+verdunningsfactor(8, 3)
+```
+
+Berekenen van concentratie uit beer lambert wet 
+```{r beerlambert}
+beerlambert(1, 0.5, 2)
+```
