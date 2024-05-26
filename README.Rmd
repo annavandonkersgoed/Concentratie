@@ -1,0 +1,28 @@
+---
+output: github_document
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# conculations
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+Het doel van conculations is om berekeningen met concentraties uit te voeren. 
+
+## Installation
+
+You can install the development version of conculations from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("annavandonkersgoed/Concentratie")
+```
